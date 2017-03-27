@@ -1,7 +1,7 @@
 # coding=utf-8
-'''1.4 Comenzando a programar - Print, if, elif, else - tipos de datos
+'''#1.4 Comenzando a programar - Print, if, elif, else - tipos de datos
 
-- Escribir un programa que diga "Aguante la Comic Sans" 
+#Escribir un programa que diga "Aguante la Comic Sans" 
 
 print('aguante la comic sans')
 
@@ -9,7 +9,7 @@ print('aguante la comic sans')
 ##################################################################################################################################
 
 
-Evaluar 4>3 and print("hola") - Explicar que sucede, generar un ejemplo donde la sentencia "hola" NO se ejecute.
+#Evaluar 4>3 and print("hola") - Explicar que sucede, generar un ejemplo donde la sentencia "hola" NO se ejecute.
 
 if 4>3: #Con esa guarda el programa se ejecuta siempre debido a que siempre es True.
 	print('hola')
@@ -19,7 +19,7 @@ if 3>4: #Aca la guarda es siempre False, por lo que no entra al print.
 
 ##################################################################################################################################
 
-- Escribir un programa que reciba un nombre de usuario, luego de obtenerlo diga "Las computadoras dominaremos el mundo, @nombre"
+#Escribir un programa que reciba un nombre de usuario, luego de obtenerlo diga "Las computadoras dominaremos el mundo, @nombre"
 
 
 nombre = input('Ingresa tu nombre, por favor.\n')
@@ -29,7 +29,7 @@ print('Las computadoras dominaremos al mundo, ' + nombre+ '.')
 ##################################################################################################################################
 
 
-- Escribir un programa que reciba texto, si es una fruta y es una banana o manzana indica "yummi", si no lo es dice "puajjj"
+#Escribir un programa que reciba texto, si es una fruta y es una banana o manzana indica "yummi", si no lo es dice "puajjj"
 
 
 fruta = input('Escriba el nombre de una fruta\n')
@@ -42,7 +42,7 @@ else:
 ##################################################################################################################################
 
 
-- Escribir un programa que reciba un número entero positivo, devolver la sumatoria de dicho número
+#Escribir un programa que reciba un número entero positivo, devolver la sumatoria de dicho número
 
 
 def sumatoria(x):
@@ -65,7 +65,7 @@ print(sumatoria(5))
 
 
 
-- Modificar el ejercicio anterior generando que únicamente sume números que sean múltiplos de 3, 5 o 7 hasta el número ingresado.
+#Modificar el ejercicio anterior generando que únicamente sume números que sean múltiplos de 3, 5 o 7 hasta el número ingresado.
 
 
 def sumatoria_3_5_7(x):
@@ -90,7 +90,7 @@ print(sumatoria_3_5_7(10))
 ##################################################################################################################################
 
 
-- Dado un numero ingresado por el usuario, dar la posibilidad al mismo de: generar su sumatoria o su factorial.
+#Dado un numero ingresado por el usuario, dar la posibilidad al mismo de: generar su sumatoria o su factorial.
 
 
 def sumatoria_o_factorial(x):
@@ -123,7 +123,7 @@ print(sumatoria_o_factorial(10))
 
 ##################################################################################################################################
 
-- Computar el número K ingresado! 4⋅∑(−1)i+12i . Ayudita: la sumatoria va de 0 a K, en este caso i es el elemento del ciclo.
+#Computar el número K ingresado! 4⋅∑(−1)i+12i . Ayudita: la sumatoria va de 0 a K, en este caso i es el elemento del ciclo.
 
 
 def sumatoria_rara(k):
@@ -142,7 +142,7 @@ print(sumatoria_rara(2))
 
 ##################################################################################################################################
 
-- ¿Que año es dentro de 20 años? (APA! consultame si necesitas!)
+#¿Que año es dentro de 20 años? (APA! consultame si necesitas!)
 
 
 import time
@@ -156,10 +156,12 @@ print(futuro())
 
 ##################################################################################################################################
 
-- SUPER HARD, vale 10 puntos para Griffindor: Escribir un piedra, papel o tijera de 1 ronda.
+#SUPER HARD, vale 10 puntos para Griffindor: Escribir un piedra, papel o tijera de 1 ronda.
 
 Ayudita: Vas a tener que buscar como hacer un #random con tus propias manos. 
 '''
+
+import random
 
 def piedra_papel_o_tijera():
     pass
@@ -168,7 +170,15 @@ usuario = input('Escribi un numero: 1 para piedra, 2 para papel o 3 para tijera\
 
 usuario = int(usuario)
 
-#compu =
+compu = random.randint(1, 3)
+
+print(compu)
+
+# 1 le gana 3
+# 2 le gana a 1
+# 3 le gana a 2
+
+
 
 
 
