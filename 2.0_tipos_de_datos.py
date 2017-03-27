@@ -9,9 +9,13 @@
 Es necesario calcular el promedio de los alumnos.
 '''
 
-
+boletin = {}
 nombre = input('ingrese el nombre del alumno')
 nota = input('ingrese la nota del alumno')
+
+biletin[nombre] = nota
+
+
 
 
 
