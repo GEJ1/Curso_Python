@@ -10,10 +10,47 @@ Es necesario calcular el promedio de los alumnos.
 '''
 
 boletin = {}
-nombre = input('ingrese el nombre del alumno')
-nota = input('ingrese la nota del alumno')
 
-biletin[nombre] = nota
+
+
+nombre = input('ingrese el nombre del alumno. Minimo 5 caracteres\n')
+if len(nombre)<5:
+    print('El nombre a ingresar debe tener al menos 5 caracteres')
+
+else:
+
+
+    nota = input('ingrese la nota del alumno con un valor entre 0 y 10\n')
+    nota = int(nota)
+    boletin[nombre] = nota
+    otro_dato = input('Desea agregar otro alumno? Escriba si o no y presione enter.\n')
+
+
+    if otro_dato == 'si':
+        nombre = input('ingrese el nombre del alumno\n')
+        nota = input('ingrese la nota del alumno\n')
+        nota = int(nota)
+        boletin[nombre] = nota
+        otro_dato = input('Desea agregar otro alumno? Escriba si o no y presione enter.\n')
+        if otro_dato == 'no':
+            boletin[nombre] = nota
+            nota = int(nota)
+            nota = boletin.values()
+
+
+            promedio = (sum(nota) / len(nota))
+
+            print(promedio)
+
+
+    elif otro_dato == 'no':
+        boletin[nombre] = nota
+        nota = boletin.values()
+        promedio = (sum(nota) / len(nota))
+
+        print(promedio)
+
+
 
 
 
