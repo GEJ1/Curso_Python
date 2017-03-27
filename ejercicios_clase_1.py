@@ -172,11 +172,19 @@ usuario = int(usuario)
 
 compu = random.randint(1, 3)
 
-print(compu)
+resultado = [usuario,compu]
+resultado_cheto = ['Vos elegiste: '+ str(usuario),'Yo elegi: ' + str(compu)]
 
-# 1 le gana 3
-# 2 le gana a 1
-# 3 le gana a 2
+if resultado == [1,3] or resultado == [2,1] or resultado == [3,2]:
+    print('Ganaste! :D')
+    print(resultado_cheto)
+elif resultado == [3,1] or resultado == [1,2] or resultado == [2,3]:
+    print('Perdiste :(')
+    print(resultado_cheto)
+else:
+    print('Empate')
+    print(resultado_cheto)
+
 
 
 
