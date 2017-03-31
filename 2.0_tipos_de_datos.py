@@ -9,50 +9,46 @@
 Es necesario calcular el promedio de los alumnos.
 '''
 
-boletin = {}
+'''
+boletin[nombre] = nota
+nota = int(nota)
+nota = boletin.values()
+'''
 
+def promedio(nota):
 
+    promedio = (sum(nota) / len(nota))
+    return 'El promedio de las notas es: ' + str(promedio)
 
-nombre = input('ingrese el nombre del alumno. Minimo 5 caracteres\n')
-if len(nombre)<5:
-    print('El nombre a ingresar debe tener al menos 5 caracteres')
-
-else:
-
-
-    nota = input('ingrese la nota del alumno con un valor entre 0 y 10\n')
-    nota = int(nota)
-    boletin[nombre] = nota
-    otro_dato = input('Desea agregar otro alumno? Escriba si o no y presione enter.\n')
-
+def entrada_boletin(otro_dato):
+    nombre = input('ingrese el nombre del alumno. Minimo 5 caracteres\n')
+    if len(nombre) > 4:
+        nota = input('ingrese la nota del alumno con un valor entre 0 y 10\n')
+        nota = int(nota)
+        if -1 < nota < 11:
+            nota = int(nota)
+            boletin[nombre] = nota
+            nota = boletin.values()
+            otro_dato = input('Desea agregar otro alumno? Escriba si o no y presione enter.\n')
 
     if otro_dato == 'si':
-        nombre = input('ingrese el nombre del alumno\n')
-        nota = input('ingrese la nota del alumno\n')
-        nota = int(nota)
-        boletin[nombre] = nota
-        otro_dato = input('Desea agregar otro alumno? Escriba si o no y presione enter.\n')
-        if otro_dato == 'no':
-            boletin[nombre] = nota
-            nota = int(nota)
-            nota = boletin.values()
-
-
-            promedio = (sum(nota) / len(nota))
-
-            print(promedio)
-
+        return entrada_boletin(otro_dato)
 
     elif otro_dato == 'no':
-        boletin[nombre] = nota
-        nota = boletin.values()
-        promedio = (sum(nota) / len(nota))
+        print (promedio(nota))
 
-        print(promedio)
+# Creo un diccionario vacio
+boletin = {}
+#inicializo la variable otro_dato
+otro_dato = 'asd'
 
-
-
-
+entrada_boletin(otro_dato)
+if otro_dato == 'si':
+    entrada_boletin(otro_dato)
+    if otro_dato == 'no':
+        print(promedio(nota))
+elif otro_dato == 'no':
+    print(promedio(nota))
 
 
 
