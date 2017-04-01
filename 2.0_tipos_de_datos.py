@@ -126,30 +126,33 @@ else:
 def agregar(nuevo_contacto):
 
     nuevo_contacto = input('ingrese el nombre del nuevo contacto\n')
-    contactos[nuevo_contacto] = contacto_particular
+    nuevo_contacto_info = {}
+    contactos[nuevo_contacto] = nuevo_contacto_info
 
     mail = input('ingrese el E-mail del nuevo contacto\n')
-    contacto_particular['E-mail'] = mail
+    nuevo_contacto_info['E-mail'] = mail
 
     tel = input('ingrese el telefono del nuevo contacto\n')
-    contacto_particular['Telefono'] = tel
+    nuevo_contacto_info['Telefono'] = tel
 
     domicilio = input('ingrese el domicilio del nuevo contacto\n')
-    contacto_particular['Domicilio'] = domicilio
+    nuevo_contacto_info['Domicilio'] = domicilio
 
     edad = input('ingrese la edad del nuevo contacto\n')
-    contacto_particular['Edad'] = edad
+    nuevo_contacto_info['Edad'] = edad
 
     dni = input('ingrese el DNI del nuevo contacto\n')
-    contacto_particular['DNI'] = dni
+    nuevo_contacto_info['DNI'] = dni
 
 
 def agenda(texto_inicio):
+    nuevo_contacto = 'iniciando'
+
 
     texto_inicio = input('Seleccione una de las siguiente opciones.\nagregar, editar ,borrar, mostrar, salir \n  ')
 
     if texto_inicio == 'agregar':
-        nuevo_contacto = 'inicio'
+
         agregar(nuevo_contacto)
 
         print(texto_inicio)
@@ -168,14 +171,20 @@ def agenda(texto_inicio):
     elif texto_inicio == 'editar':
 
         contacto_a_editar = input('Seleccione el E-mail contacto a editar\n')
-        editar ='a'
-        editar = contactos[editar]
 
-        agregar(editar)
+        if contacto_a_editar in contactos:
+
+            editar = contactos[contacto_a_editar]
+        else:
+            print('El mail no existe.')
+            contacto_a_editar = input('Seleccione el E-mail contacto a editar\n')
+
+        agregar(contacto_a_editar)
         texto_inicio = ' '
         agenda(texto_inicio)
 
     elif texto_inicio == 'salir':
+
         return(contactos)
 
 opciones = ['agregar', 'editar', 'borrar', 'mostrar', 'salir']
@@ -189,14 +198,3 @@ agenda(texto_inicio)
 
 
 
-'''
-if texto_inicio = 'editar'
-
-if texto_inicio = 'agregar'
-
-if texto_inicio = 'borrar'
-
-if texto_inicio = 'mostrar'
-
-if texto_inicio = 'salir'
-'''
