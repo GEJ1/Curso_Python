@@ -1,4 +1,5 @@
-'''Tuplas, listas y diccionarios - Estructuras de control de flujo, Bucles
+# -*- coding: utf-8 -*-
+''''Tuplas, listas y diccionarios - Estructuras de control de flujo, Bucles
 
 # Escribir un listado de famosos en un archivo .py. Desde otro archivo mostrar por pantalla el listado de famosos numerados.
 #Esta hecho en dos arhivos separados
@@ -50,7 +51,7 @@ elif otro_dato == 'no':
 
 - Se requiere ingresar por pantalla materias de la carrera. La materia se compone con: número de 5 cifras de identificación 
 única, un nombre y un listado de alumnos (con sus notas).
-'''
+
 
 def entrada_boletin(otro_dato):
     nombre = input('ingrese el nombre del alumno. Minimo 5 caracteres\n')
@@ -60,16 +61,14 @@ def entrada_boletin(otro_dato):
         if -1 < nota < 11:
             nota = int(nota)
             boletin[nombre] = nota
-
-
-
-            materias.append(nota)
+            print(boletin)
             otro_dato = input('Desea agregar otro alumno? Escriba si o no y presione enter.\n')
 
     if otro_dato == 'si':
         return entrada_boletin(otro_dato)
 
     elif otro_dato == 'no':
+        materias.append(boletin)
         print (materias)
 
 materias = []
@@ -77,29 +76,127 @@ boletin = {}
 otro_dato = 'asd'
 
 numero = input('ingrese el numero de materia. El mismo debera tener 5 digitos.\n')
-materias.append(numero)
-nombre = input('ingrese el nombre de la materia. El mismo debera tener 5 digitos.\n')
-materias.append(nombre)
-entrada_boletin(otro_dato)
-if otro_dato == 'si':
+if  len(numero) == 5:
+    materias.append(numero)
+    nombre = input('ingrese el nombre de la materia. El mismo debera tener 5 digitos.\n')
+    materias.append(nombre)
     entrada_boletin(otro_dato)
-    if otro_dato == 'no':
+    if otro_dato == 'si':
+        entrada_boletin(otro_dato)
+        if otro_dato == 'no':
+            materias.append(boletin)
+            print (materias)
+    elif otro_dato == 'no':
+        materias.append(boletin)
         print (materias)
-elif otro_dato == 'no':
-    print (materias)
-
-
-
-
-
-'''
-
+        
+##################################################################################################################################
 - Dada una cadena de texto de 10 a 20 caracteres ingresada por el usuario quedarse con los primeros 3 y los ultimos 5.
+
+
+def generar_salida(texto_input):
+    for i in range (0,3):
+        texto_output.append(texto_input[i])
+    for i in range((len(texto_input))-5, len(texto_input)):
+        texto_output.append(texto_input[i])
+    return (texto_output)
+
+texto_input = []
+texto_output = []
+
+texto_input = input('Escriba un texto de entre 10 y 20 caracteres.\n')
+
+if 9 < len(texto_input) < 21:
+    print(generar_salida(texto_input))
+else:
+    print ('El texto debe tener entre 10 y 20 caracteres')
+
+###################################################################################################################################################################################################    
+
 
 - Se debera generar un sistema que mantenga en memoria datos de una agenda.
     - El programa mostrara las opciones> agregar, editar, borrar, mostrar y salir
     agregar, agenda un contacto (email, telefono, nombre, domicilio, edad y dni)
     editar, permite modificar cualquiera de los contactos seleccionando su email.
-    borrar, elimina un contacto.
+    borrar, elimina un contacto
+    
 
+'''
+
+def agregar(nuevo_contacto):
+
+    nuevo_contacto = input('ingrese el nombre del nuevo contacto\n')
+    contactos[nuevo_contacto] = contacto_particular
+
+    mail = input('ingrese el E-mail del nuevo contacto\n')
+    contacto_particular['E-mail'] = mail
+
+    tel = input('ingrese el telefono del nuevo contacto\n')
+    contacto_particular['Telefono'] = tel
+
+    domicilio = input('ingrese el domicilio del nuevo contacto\n')
+    contacto_particular['Domicilio'] = domicilio
+
+    edad = input('ingrese la edad del nuevo contacto\n')
+    contacto_particular['Edad'] = edad
+
+    dni = input('ingrese el DNI del nuevo contacto\n')
+    contacto_particular['DNI'] = dni
+
+
+def agenda(texto_inicio):
+
+    texto_inicio = input('Seleccione una de las siguiente opciones.\nagregar, editar ,borrar, mostrar, salir \n  ')
+
+    if texto_inicio == 'agregar':
+        nuevo_contacto = 'inicio'
+        agregar(nuevo_contacto)
+
+        print(texto_inicio)
+        print(contactos)
+        texto_inicio = ' '
+        agenda(texto_inicio)
+
+    elif texto_inicio == 'borrar':
+        contacto_a_borrar = input('ingrese nombre del contacto a borrar\n')
+        del contactos[contacto_a_borrar]
+
+        print(contactos)
+        texto_inicio = ' '
+        agenda(texto_inicio)
+
+    elif texto_inicio == 'editar':
+
+        contacto_a_editar = input('Seleccione el E-mail contacto a editar\n')
+        editar ='a'
+        editar = contactos[editar]
+
+        agregar(editar)
+        texto_inicio = ' '
+        agenda(texto_inicio)
+
+    elif texto_inicio == 'salir':
+        return(contactos)
+
+opciones = ['agregar', 'editar', 'borrar', 'mostrar', 'salir']
+
+contactos = {}
+contacto_particular = {}
+
+texto_inicio = 'inicio'
+
+agenda(texto_inicio)
+
+
+
+'''
+if texto_inicio = 'editar'
+
+if texto_inicio = 'agregar'
+
+if texto_inicio = 'borrar'
+
+if texto_inicio = 'mostrar'
+
+if texto_inicio = 'salir'
 '''
