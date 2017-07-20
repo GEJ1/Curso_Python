@@ -1,7 +1,9 @@
 # coding=utf-8
 
 import requests
-def busca_papers(a):
+
+
+def busca_abstracts_pubmed(a):
 	
 	file = open('testfile.txt','w') #Es necesario crear un archivo en el directorio que se llame "testfile.txt" (esto podría hacerse automaticamente)
 	i = 1
@@ -14,4 +16,4 @@ def busca_papers(a):
 	
 		i = i + 1
 	
-busca_papers(5)	
+busca_abstracts_pubmed(5)	
