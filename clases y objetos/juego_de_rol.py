@@ -59,22 +59,22 @@ class Coche:
 	def __init__(self, gasolina):
 		self.gasolina = gasolina
 		print 'Tenemos', gasolina, 'litros'
-		
+
 	def arrancar(self):
 		if self.gasolina > 0:
 			self.gasolina = self.gasolina - 1
 			print 'Arranca'
 		else:
 			print 'No arranca'
-			
-	
+
+
 	def conducir(self):
 		if self.gasolina >0:
 			self.gasolina = self.gasolina - 1
 			print 'Quedan', self.gasolina, 'litros'
 		else:
 			print 'No se mueve'
-			
+
 mi_coche = Coche(3)
 
 #
@@ -84,146 +84,130 @@ mi_coche.conducir()
 mi_coche.conducir()
 mi_coche.arrancar()
 '''
-	
-class Personaje():
-	
-	def __init__(self,nombre,nivel=1,fuerza= 1,agilidad= 1,inteligencia= 1,puntos_exp= 0,vida=100,distancia=0): 
+
+
+class Personaje(object):
+
+	def __init__(self,nombre,nivel=1,fuerza= 1,agilidad= 1,inteligencia= 1,puntos_exp= 0,vida=100,distancia=0):
 		self.nombre = nombre
-		
+
 		self.puntos_exp = puntos_exp
-		
+
 		self.nivel = nivel
-		
-		self.fuerza = fuerza 
-		self.agilidad = agilidad 
+
+		self.fuerza = fuerza
+		self.agilidad = agilidad
 		self.inteligencia = inteligencia
 		self.vida = vida
-		
+
 		self.distancia = distancia
-	
+
 	def nombre_personaje(self): #Hereda de self
 		print 'Mi nombre es' , self.nombre
-		
-		
+
+
 	def nivel_personaje(self):
 		if self.puntos_exp > 10:
 			self.nivel = int((self.nivel*self.puntos_exp)/10)
 			self.fuerza = self.nivel
-			self.agilidad = self.nivel 
+			self.agilidad = self.nivel
 			self.inteligencia = self.nivel
-			
+
 			print 'Tu personaje tiene nivel', self.nivel +1
 		else:
-			print 'Tu personaje tiene nivel', self.nivel 
-			
+			print 'Tu personaje tiene nivel', self.nivel
+
 	def atributos_personaje(self):
 		if self.nivel > 1:
 			self.fuerza = 1*self.nivel
-			self.agilidad = 1*self.nivel 
+			self.agilidad = 1*self.nivel
 			self.inteligencia = 1*self.nivel
 			print 'Fuerza: ', self.fuerza ,'/', 'Agilidad: ', self.agilidad ,'/', 'Inteligencia: ' , self.inteligencia
 		else:
 			print 'Fuerza: ', self.fuerza ,'/', 'Agilidad: ', self.agilidad ,'/', 'Inteligencia: ' , self.inteligencia
-	
+
 	def vida_personaje(self):
-		
+
 		if self.vida == 100:
 			print self.vida,':  Tu personaje tiene vida completa'
-			
+
 		elif 60 < self.vida < 100:
 			print self.vida,': Tu personaje está levemente herido'
-			
+
 		elif 30< self.vida <61:
 			print self.vida,': Tu personaje está herido'
-			
+
 		elif 10< self.vida <31:
 			print self.vida,': Tu personaje está mal herido'
-			
+
 		elif 0< self.vida <11:
 			print self.vida,': Tu personaje está en estado crítico'
-			
+
 		else:
 			print self.vida,': Tu personaje ha muerto'
-			
+
 	def caminar(self):
-		
-		self.distancia = self.distancia + 0.5 
+
+		self.distancia = self.distancia + 0.5
 		print 'Caminaste 0.5 metros'
 		print 'Te encontras a' , self.distancia, 'metros de tu punto de partida'
-		
-		
+
+
 	def correr(self):
-		
+
 		self.distancia = self.distancia + 0.8 + (0.01*self.agilidad)
 		print 'Caminaste', self.distancia, 'metros'
 		print 'Te encontras a' , self.distancia, 'metros de tu punto de partida'
-		
+
 	def golpear(self):
 		danio = 0.5*self.fuerza
-		
-		print 'Ejerciste' , danio, 'Newtons de danio'
-		
-		
+
+		#print 'Ejerciste' , danio, 'Newtons de danio'
+		return danio
+
 	def recibir_danio(self,danio):
 		self.vida = self.vida - 1*danio
 		print 'Recibiste' , danio, 'Newtons de danio'
 		print 'Tu vida ahora es ', self.vida
-		
-			
+
+
+
+
 class Guerrero(Personaje): #class nombreDeLaClaseHija(nombreDeLaClasePadre)
-	
-	def __init__(self):
-		Personaje.__init__(self)
-		self.recibir_danio_guerrero()
-		
-	
-	def golpear_guerrero(self):
-		
-		danio = 1*self.fuerza
-		
+
+	def __init__(self,nombre,**kwargs): # **kwargs: Le paso parametros como diccionario.
+		Personaje.__init__(self, nombre,**kwargs) #Copia todos los atributos de personaje para que esten disponibles para el guerrero
+		self.seudonimo = nombre + " el grande"
+
+	def golpear(self):
+
+		danio = 2*Personaje.golpear(self)
+
 		print 'Ejerciste' , danio, 'Newtons de danio'
-	
-	def recibir_danio_guerrero(self,danio):
+		return danio
+
+
+	def recibir_danio(self):
 		self.vida = (self.vida - 1*danio) - (1*self.fuerza)
 		print 'Recibiste' , 1- self.distancia, 'Newtons de danio gracias a tu escudo mágico'
 		print 'Tu vida ahora es ', self.vida
-		
-	
+
+
 	def escudo(self):
-		
+
 		if escudo_magico == True:
 			Personaje.Guerrero.recibir_danio_guerrero()
 		else:
 			Personaje.recibir_danio()
-		
-		 
-			
-		
-		
-			
-			
+
+
+
+
+
+
+
 mi_personaje = Personaje('Ricardo')
 
+guerrero = Guerrero("Ricardo_warrior")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		
-				
-	
-	
-	
-	
-	
-	
+guerrero.golpear()
