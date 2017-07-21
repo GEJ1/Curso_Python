@@ -85,7 +85,7 @@ mi_coche.conducir()
 mi_coche.arrancar()
 '''
 	
-class Personaje:
+class Personaje():
 	
 	def __init__(self,nombre,nivel=1,fuerza= 1,agilidad= 1,inteligencia= 1,puntos_exp= 0,vida=100,distancia=0): 
 		self.nombre = nombre
@@ -164,21 +164,58 @@ class Personaje:
 		print 'Ejerciste' , danio, 'Newtons de danio'
 		
 		
-	def recibir_danio(self):
-		self.vida = self.vida - 1
-		print 'Recibiste' , 1- self.distancia, 'Newtons de danio'
+	def recibir_danio(self,danio):
+		self.vida = self.vida - 1*danio
+		print 'Recibiste' , danio, 'Newtons de danio'
 		print 'Tu vida ahora es ', self.vida
 		
 			
-class Guerrero(Personaje): #Hereda de Personaje
-	def __init__()
+class Guerrero(Personaje): #class nombreDeLaClaseHija(nombreDeLaClasePadre)
+	
+	def __init__(self):
+		Personaje.__init__(self)
+		self.recibir_danio_guerrero()
+		
+	
+	def golpear_guerrero(self):
+		
+		danio = 1*self.fuerza
+		
+		print 'Ejerciste' , danio, 'Newtons de danio'
+	
+	def recibir_danio_guerrero(self,danio):
+		self.vida = (self.vida - 1*danio) - (1*self.fuerza)
+		print 'Recibiste' , 1- self.distancia, 'Newtons de danio gracias a tu escudo mágico'
+		print 'Tu vida ahora es ', self.vida
+		
+	
+	def escudo(self):
+		
+		if escudo_magico == True:
+			Personaje.Guerrero.recibir_danio_guerrero()
+		else:
+			Personaje.recibir_danio()
+		
+		 
+			
+		
 		
 			
 			
 mi_personaje = Personaje('Ricardo')
 
 
-mi_personaje.golpear()
+
+
+
+
+
+
+
+
+
+
+
 
 
 
