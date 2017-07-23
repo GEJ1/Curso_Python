@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<pre>
+1. Biochem Pharmacol. 1975 Sep 15;24(18):1725-7.
+
+Increase in acetyl CoA synthetase activity after phenobarbital treatment.
+
+Akamatsu N, Nakajima H, Ono M, Miura Y.
+
+
+PMID: 15  [Indexed for MEDLINE]
+
+</pre>

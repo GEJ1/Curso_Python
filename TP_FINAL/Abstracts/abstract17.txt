@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<pre>
+1. Biochem Pharmacol. 1975 Sep 15;24(18):1739-42.
+
+Effects of 5,6-dihydroxytryptamine on tyrosine-hydroxylase activity in central
+catecholaminergic neurons of the rat.
+
+Renaud B, Buda M, Lewis BD, Pujol JF.
+
+
+PMID: 17  [Indexed for MEDLINE]
+
+</pre>
