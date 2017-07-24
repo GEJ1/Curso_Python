@@ -4,12 +4,6 @@ import subprocess
 import sys
 
 
-rango = int(sys.argv[2])  # La cantidad de partes en las que estara dividido el numero total. Si no da un entero te descarga uno de menos.
-total = int(sys.argv[1]) #Total a descargar
-paso = int(total/rango)	
-abstracts = [] 	
-todos = []
-
 def subproceso((inicio,fin)):
 	
 	for i in range(inicio,fin):
@@ -29,11 +23,23 @@ def Dividir_input(total,paso):
 # poner en la consola python descarga_papers.py "Total de papers a descargar" "cantidad de procesos en paralelo"	
 
 if __name__== '__main__':
+
+	
+	rango = int(sys.argv[2])  # La cantidad de partes en las que estara dividido el numero total. Si no da un entero te descarga uno de menos.
+	total = int(sys.argv[1]) #Total a descargar
+	paso = int(total/rango)	
+	abstracts = [] 	
+	todos = []
 	
 	abstracts = Dividir_input(total,paso)
 	
+		
+	
 	for i in range(0,int(sys.argv[2])):
 		subproceso(abstracts[i])
+	
+
+	
 		
 
 
