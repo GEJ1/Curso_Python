@@ -6,22 +6,26 @@ import os
 import shutil
 from time import time
 
-
-def crear_directorio(directorio):
-	if not os.path.exists(directorio):
-		os.makedirs(directorio)
-
-def borrar_abstracts():
-	shutil.rmtree(os.path.join(os.getcwd(), 'Abstracts'))
-
-def Scraper(i):
+class Scraper(object):
 	
-	archivo = open(os.path.join(abstr_path ,abstr_names.format(str(i))) ,'w+') 
-	toask =  Base_URL.format(str(i))
-	print(i)
-	page = requests.get(toask)
+	def __init__(self, directorio):
+		self.directorio = directorio
 
-	archivo.write(page.content)
+	def crear_directorio(self):
+		if not os.path.exists(self.directorio):
+			os.makedirs(self.directorio)		
+
+	def borrar_abstracts(self):
+		shutil.rmtree(os.path.join(os.getcwd(), self.directorio))
+
+	def Correr_Scraper(self, i):
+	
+		archivo = open(os.path.join(abstr_path ,abstr_names.format(str(i))) ,'w+') 
+		toask =  Base_URL.format(str(i))
+		print(i)
+		page = requests.get(toask)
+
+		archivo.write(page.content)
 
 
 	
@@ -32,8 +36,10 @@ if __name__== '__main__':
 	Base_URL = "https://www.ncbi.nlm.nih.gov/pubmed/{}?report=abstract&format=text"
 
 	abstr_names = 'abstract{}.txt'
-
-	crear_directorio('Abstracts')
+	
+	Scraper_pubmed  = Scraper('Abstracts')
+	
+	Scraper_pubmed.crear_directorio()
 
 	abstr_path = os.path.join(os.getcwd(), 'Abstracts')
 
@@ -41,7 +47,11 @@ if __name__== '__main__':
 	
 	
 
-	Scraper(i)
+	Scraper_pubmed.Correr_Scraper(i)
+	
+
+	
+	
 
 
 		
