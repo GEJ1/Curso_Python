@@ -23,12 +23,10 @@ def Scraper(i):
 
 	archivo.write(page.content)
 
-	
-	print "termine"
 
 	
 	
-tiempo_inicial = time()
+
 if __name__== '__main__':
 
 	Base_URL = "https://www.ncbi.nlm.nih.gov/pubmed/{}?report=abstract&format=text"
@@ -45,11 +43,7 @@ if __name__== '__main__':
 
 	Scraper(i)
 
-tiempo_final = time()	
-	
-tiempo_ejecucion = tiempo_final - tiempo_inicial
 
-print 'El tiempo de ejecucion fue:',tiempo_ejecucion 
 		
 
 	

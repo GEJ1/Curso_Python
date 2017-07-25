@@ -2,6 +2,7 @@
 
 import subprocess
 import sys
+from time import time
 
 
 def subproceso((inicio,fin)):
@@ -31,12 +32,19 @@ if __name__== '__main__':
 	abstracts = [] 	
 	todos = []
 	
-	abstracts = Dividir_input(total,paso)
-	
+	abstracts = Dividir_input(total,paso)	
 		
+	tiempo_inicial = time()
 	
 	for i in range(0,int(sys.argv[2])):
 		subproceso(abstracts[i])
+	
+	tiempo_final = time()
+	
+	
+	tiempo_ejecucion = tiempo_final - tiempo_inicial
+	
+	print 'El tiempo de ejecucion fue:',tiempo_ejecucion 
 	
 
 	
