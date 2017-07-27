@@ -6,7 +6,7 @@ from time import time
 from subprocess_library import subproceso , dividir_input
 
 
-# poner en la consola python __main__.py "Total de papers a descargar" "cantidad de procesos en paralelo"	
+# poner en la consola python __main__.py "Total de papers a descargar" "cantidad de procesos en paralelo"
 
 if __name__== '__main__':
 

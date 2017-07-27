@@ -3,7 +3,8 @@
 
 import sys
 import os
-from scraper_library import Scraper, Scraper_pubmed
+from scraper_library import Scraper
+from Scraper_pubmed_library import Scraper_pubmed
 
 if __name__== '__main__':
 
