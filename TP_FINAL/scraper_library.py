@@ -24,8 +24,8 @@ class Scraper(object):
 		toask =  self.base_url.format(str(i))
 		print(i)
 		page = requests.get(toask)
-
 		archivo.write(page.content)
+		archivo.close
 		
 		
 		

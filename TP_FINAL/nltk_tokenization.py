@@ -18,9 +18,17 @@
             #~ input_tokens = word_tokensize(input_file.read())
 
 
-from nltk.book import *
+import nltk
 
-text2.common_contexts(['very','monstrous'])            
+import matplotlib
+
+ 	
+f=open('my-file.txt','rU')
+raw=f.read()
+tokens = nltk.word_tokenize(raw)
+text = nltk.Text(tokens)
+
+print(text)     
 
 
            
