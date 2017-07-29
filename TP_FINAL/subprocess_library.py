@@ -1,4 +1,5 @@
 import subprocess
+from time import time
 
 
 
@@ -17,3 +18,21 @@ def dividir_input(total,paso):
 	for x in range(1,total,paso):
 		archivos.append((x,x+paso))
 	return archivos
+	
+def procesar(cant_total, partes):
+		
+				
+			archivos = dividir_input(cant_total,int(cant_total/partes))
+			
+			tiempo_inicial = time()
+			
+			for i in range(0, partes):
+				subproceso(archivos[i])
+				
+			
+			tiempo_final = time()
+			
+			
+			tiempo_ejecucion = tiempo_final - tiempo_inicial
+			
+			print 'El tiempo de ejecucion fue:',tiempo_ejecucion
