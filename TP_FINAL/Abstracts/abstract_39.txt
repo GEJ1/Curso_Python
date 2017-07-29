@@ -1,0 +1,34 @@
+Biochemistry. 1975 Nov 18;14(23):5094-8.
+
+Formation of transient complexes in the glutamate dehydrogenase catalyzed
+reaction.
+
+Sanner T.
+
+The reaction of glutamate dehydrogenase and glutamate (gl) with NAD+ and NADP+
+has been studied with stopped-flow techniques. The enzyme was in all experiments 
+present in excess of the coenzyme. The results indicate that the ternary complex 
+(E-NAD(P)H-kg) is present as an intermediate in the formation of the stable
+complex (E-NAD(P)H-gl). The identification of the complexes is based on their
+absorption spectra. The binding of the coenzyme to (E-gl) is the rate-limiting
+step in the formation of (E-NAD(P)H-kg) while the dissociation of
+alpha-ketoglutarate (kg) from this complex is the rate-limiting step in the
+formation of (E-NAD(P)H-gl). The Km for glutamate was 20-25 mM in the first
+reaction and 3 mM in the formation of the stable complex. The Km values were
+independent of the coenzyme. The reaction rates with NAD+ were approximately 50% 
+greater than those with NADP+. Furthermore, high glutamate concentration
+inhibited the formation of (E-NADH-kg) while no substrate inhibition was found
+with NADP+ as coenzyme. ADP enhanced while GTP reduced the rate of (E-NAD(P)H-gl)
+formation. The rate of formation of (E-NAD(P)H-kg) was inhibited by ADP, while it
+increased at high glutamate concentration when small amounts of GTP were added.
+The results show that the higher activity found with NAD+ compared to NADP+ under
+steady-state assay conditions do not necessarily involve binding of NAD+ to the
+ADP activating site of the enzyme. Moreover, the substrate inhibition found at
+high glutamate concentration under steady-state assay condition is not due to the
+formation of (E-NAD(P)H-gl) as this complex is formed with Km of 3 mM glutamate, 
+and the substrate inhibition is only significant at 20-30 times this
+concentration.
+
+
+PMID: 39  [Indexed for MEDLINE]
+

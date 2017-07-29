@@ -1,0 +1,27 @@
+Biochim Biophys Acta. 1975 Nov 18;412(1):26-38.
+
+The behavior of holo- and apo-forms of bovine superoxide dismutase at low pH.
+
+Fee JA, Phillips WD.
+
+1. Holo-superoxide dismutase from bovine erythrocytes has been shown to undergo a
+reversible structural modification in the pH 3-5 range. 2. The spectral
+alterations observed on changing from neutrality to pH 2 were: a slight
+attenuation of the 680 nm absorbance; the loss of the 450 nm shoulder, apparent
+in the optical spectrum of the native protein; and a new band appeared at 330 nm.
+The circular dichroism at 600 nm was essentially lost while a weak negative band 
+appeared at approx. 380 nm and a positive band at 310 nm. 3. The EPR spectrum was
+also modified on changing from the native to the low pH form: A parallel
+increased from approximately 130 to approximately 150 G, g parallel remained
+unchanged at approximately 2.27, and gm decreased from approximately 2.09 to
+approximately 2.08. The apparent linewidth remained essentially constant. 4. High
+resolution (220 MHz) PMR spectra of holo- and apoproteins revealed that the
+metals influence the three-dimensional structure of the protein. 5. PMR studies
+indicated that at pH 3 the apoprotein existed almost entirely in a random coil
+form and that it assumed a compact well-ordered structure on returning to neutral
+pH. The holoprotein maintained a compact, apparently dimeric, structure even at
+pH 3.
+
+
+PMID: 82  [Indexed for MEDLINE]
+

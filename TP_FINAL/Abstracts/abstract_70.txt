@@ -1,0 +1,24 @@
+Biochim Biophys Acta. 1975 Nov 20;410(1):156-63.
+
+Specificity studies on alpha-mannosidases using oligosaccharides from
+mannosidosis urine as substrates.
+
+Hultberg B, Lundblad A, Masson PK, Ockerman PA.
+
+Oligosaccharides containing terminal non-reducing alpha(1 leads to 2)-, alpha(1
+leads to 3)-, and alpha(1 leads to 6)-linked mannose residues, isolated from
+human and bovine mannosidosis urines were used as substrates to test the
+specificities of acidic alpha-mannosidases isolated from human and bovine liver. 
+The enzymes released all the alpha-linked mannose residues from each
+oligosaccharide and were most effective on the smallest substrate. Enzyme A in
+each case was less active on the oligosaccharides than alpha-mannosidase B2, even
+though the apparent Km value for the substrates was the same with each enzyme.
+The human acidic alpha-mannosidases were also found to be more active on
+substrates isolated from human rather than bovine mannosidosis urine. Human
+alpha-mannosidase C, which has a neutral pH optimum when assayed with a synthetic
+substrate, did not hydrolyse any of the oligosaccharides at neutral pH, but was
+found to be active at an acidic pH.
+
+
+PMID: 70  [Indexed for MEDLINE]
+

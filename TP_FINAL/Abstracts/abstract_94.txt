@@ -1,0 +1,22 @@
+Biofizika. 1975 Jul-Aug;20(4):581-5.
+
+[Relation between fluorescence and circular dichroism of the complex of the
+fluorescence probe 4-dimethylaminochalcone with serum albumin].
+
+[Article in Russian]
+
+Dobretsov GE, Kharitonenkov IG, Mishiev VE, Vladimirov IuA.
+
+The fluorescence probe(4-dimethylaminochalcone; DMH) was noncovalently linked to 
+human serum albumin (HSA). The variation of pH was due to serum albumin
+structural changes, which was determined in terms of DMH and HSA fluorescence and
+CD spectra. Considerable changes of fluorescence and CD spectra were observed at 
+pH 8 and 10, where there is ionization of two more recently titrated tyrosin
+residues. It is assumed that these two tyrosine residues are in binding region
+and quench the fluorescence of DMH between pH 4 to 8. Quenching disappears if
+these residues are ionized (pH greater than 8) or if the protein undergoes the N 
+-F transition (pH less than 4).
+
+
+PMID: 94  [Indexed for MEDLINE]
+

@@ -1,0 +1,22 @@
+Biochim Biophys Acta. 1975 Dec 15;412(2):262-72.
+
+Hybrids of chemical derivatives of Escherichia coli alkaline phosphatase.
+
+Meighen E, Yue R.
+
+The activities of hybrid dimers of alkaline phosphatase containing two chemically
+modified subunits have been investigated. One hybrid species was prepared by
+dissociation and reconstitution of a mixture of two variants produced by chemical
+modification of the native enzyme with succinic anhydride and tetranitromethane, 
+respectively. The succinyl-nitrotyrosyl hybrid was separated from the other
+members of the hybrid set by DEAE-Sephadex chromatography and then converted to a
+succinyl-aminotyrosyl hybrid by reduction of the modified tyrosine residues with 
+sodium dithionite. A comparison of the activities of these two hybrids with the
+activities of the succinyl, nitrotyrosyl and aminotyrosyl derivatives has shown
+that either the subunits of alkaline phosphatase function independently or if the
+subunits turnover alternately in a reciprocating mechanism, then the intrinsic
+activity of each subunit must be strongly dependent on its partner subunit.
+
+
+PMID: 86  [Indexed for MEDLINE]
+

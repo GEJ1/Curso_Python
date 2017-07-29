@@ -1,0 +1,31 @@
+Biochim Biophys Acta. 1975 Dec 15;412(2):202-13.
+
+Physical properties and subunits of Haemopis grandis erythrocruorin.
+
+Andonian MR, Barrett AS, Vinogradov SN.
+
+The erythrocruorin of the leech Haemopis grandis possessed an S20,w of 57 S at
+neutral pH, its isoelectric point at pH 6.0 and exhibited a slightly sigmoid
+oxygenation curve with n approximately 2.1 and P50 = 11.2 mm at pH 7.4. A minimum
+molecular weight of 24000 +/- 1500 per heme group was determined from the iron
+and heme contents, 0.22 +/- 0.01 and 2.73 +/- 0.14 weight %, respectively. The
+subunit composition of the erythrocruorin was investigated using gel filtration
+in sodium dodecyl sulfate and polyacrylamide gel electrophoresis in sodium
+dodecyl sulfate at neutral pH. Haemopis erythrocruorin dissociated in the
+presence of sodium dodecyl sulfate into four subunits (1 through 4) possessing
+molecular weights of about 27000, 23000, 21000 and 13500, respectively. When the 
+erythrocruorin was reduced with mercaptoethanol prior to sodium dodecyl sulfate
+electrophoresis, three subunits were observed, possessing molecular weights of
+about 13000 (I), 16500 (II) and 28000 (III). Sodium dodecyl sulfate
+electrophoresis of the isolated subunits 1 through 4 showed that subunit I was
+provided by subunits 1 and 4, subunit II was provided by subunit 1 and subunit
+III was provided by both subunit 2 and subunit 3. Haemopis erythrocruorin thus
+appeared to consist of at least five different polypeptide chains. It is likely
+that not all of the constituent polypeptide chains were associated each with a
+heme group. The shape of the Haemopis erythrocruorin observed by electron
+microscopy appeared to be consistent with the two-tiered hexagonal array
+characteristic of annelid erythrocruorins and chlorocruorins.
+
+
+PMID: 84  [Indexed for MEDLINE]
+

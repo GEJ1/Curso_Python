@@ -1,0 +1,24 @@
+Biochim Biophys Acta. 1975 Nov 18;412(1):187-93.
+
+N-terminal spin label studies of hemoglobin, Ligand and pH dependence.
+
+Giangrande M, Kim YW, Mizukami H.
+
+Human hemoglobin was spin labeled with
+4-isothiocanato-2,2,6,6-tetramethyl-piperdinooxyl, which is known to bind
+specifically to the N-terminal alpha-amino groups of proteins and slightly to the
+reactive sulfhydryl groups. Electron spin resonance (ESR) analysis indicated a
+partially resolved five-line spectrum, suggesting that the label was attached to 
+at least two different binding sites. Using specific blocking reagents prior to
+spin labeling, the two binding sites were attributed to the sulfhydryl group of
+beta-93 (immobile) and the alpha-amino group of the N-terminal valines (mobile). 
+The relative motion of the spin at one set of binding sites was restricted
+regardless of the state of ligation and pH, while the motion at the other site
+showed dependence on those parameters, e.g. the spin-labeled N-terminal ends of
+deoxyhemoglobin have restricted motion at all pH ranges studied, while those of
+oxyhemoglobin are relatively free to move at the basic pH range, but become more 
+restricted in the acidic pH range.
+
+
+PMID: 81  [Indexed for MEDLINE]
+

@@ -1,0 +1,29 @@
+Biochemistry. 1975 Nov 18;14(23):5194-9.
+
+Modification of arginine and lysine in proteins with 2,4-pentanedione.
+
+Gilbert HF 3rd, O'Leary MH.
+
+Primary amines react with 2,4-pentanedione at pH 6-9 to form enamines,
+N-alkyl-4-amino-3-penten-2-ones. The latter compounds readily regenerate the
+primary amine at low pH or on treatment with hydroxylamine. Guanidine and
+substituted guanidines react with 2,4-pentanedione to form N-substituted
+2-amino-4,6-dimethylpyrimidines at a rate which is lower by at least a factor of 
+20 than the rate of reaction of 2,4-pentanedione with primary amines. Selective
+modification of lysine and arginine side chains in proteins can readily be
+achieved with 2,4-pentanedione. Modification of lysine is favored by reaction at 
+pH 7 or for short reaction times at pH 9. Selective modification of arginine is
+achieved by reaction with 2,4-pentanedione for long times at pH 9, followed by
+treatment of the protein with hydroxylamine. The extent of modification of lysine
+and arginine side chains can readily be measured spectrophotometrically.
+Modification of lysozyme with 2,4-pentanedione at pH 7 results in modification of
+3.8 lysine residues and less than 0.4 arginine residue in 24 hr. Modification of 
+lysozyme with 2,4-pentanedione at pH 9 results in modification of 4 lysine
+residues and 4.5 arginine residues in 100 hr. Treatment of this modified protein 
+with hydroxylamine regenerated the modified lysine residues but caused no change 
+in the modified arginine residues. One arginine residue seems to be essential for
+the catalytic activity of the enzyme.
+
+
+PMID: 43  [Indexed for MEDLINE]
+

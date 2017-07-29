@@ -37,18 +37,55 @@
 
 #!/usr/bin/python
 
-import sys
-import re
+#~ import sys
+#~ import re
+#~ import os
+#~ import nltk
+#~ from nltk.tokenize import RegexpTokenizer
+#~ from nltk import *
+
+
+#~ f=open (os.path.join(os.getcwd(), 'Abstracts' , 'Todos_los_abstracts.txt'),'r')
+
+#~ texto= f.read()
+
+#~ texto = re.sub(r'[\]\[\(\)\{\}\<\>]', "", texto)
+
+
+#~ tokens = nltk.word_tokenize(texto)
+
+#~ nltk.concordance("ion")
+
+#~ print tokens
+
+
+##################33
+
+
+# coding=utf-8
+
+
+from nltk.tokenize import sent_tokenize, word_tokenize
+from nltk.text import Text
 import os
-import nltk
+import re
+import sys  
+
+reload(sys)  
+sys.setdefaultencoding('utf8')
+
+def main():
+    text = open(os.path.join(os.getcwd(), 'Abstracts' , 'Todos_los_abstracts.txt'),'r').read()
+    text = re.sub(r'[\]\[\(\)\{\}\<\>]', "", text)
+    tokens = word_tokenize(text)
+    textList = Text(tokens)
+    textList.dispersion_plot(["in", "ion", "Haberland", "cancer", "fibroblasts", 'molecule']) #Cada marca representa una instancia de esa palabra y cada fila cubre todo el texto. Hay un orden cronologico
 
 
-f=open (os.path.join(os.getcwd(), 'Abstracts' , 'Todos_los_abstracts.txt'),'r')
-texto= f.read()
 
-tokens = nltk.word_tokenize(texto)
 
-print tokens
+if __name__ == '__main__':
+    main()
 
 
 

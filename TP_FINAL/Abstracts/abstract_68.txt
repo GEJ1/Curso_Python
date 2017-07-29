@@ -1,0 +1,25 @@
+Biochim Biophys Acta. 1975 Nov 20;410(1):135-44.
+
+Behavior of soluble and immobilized acid phosphatase in hydro-organic media.
+
+Wan H, Horvath C.
+
+The hydrolysis of p-nitrophenyl phosphate by wheat germ acid phosphatase
+(orthophosphoric monoester phosphohydrolase, EC 3.1.3.2) has been investigated in
+mixtures of aqueous buffers with acetone, dioxane and acetonitrile. The enzyme
+was either in free solution or immobilized on a pellicular support which
+consisted of a porous carbonaceous layer on solid glass beads. The highest enzyme
+activity was obtained in acetone and acetonitrile mixed with citrate buffer over 
+a wide range of organic solvent concentration. In 50% (v/v) acetone both V and Km
+of the immobilized enzyme were about half of the values in the neat aqueous
+buffer, but the Ki for inorganic phosphate was unchanged. In 50% (v/v) mixtures
+of various solvents and citrate buffers of different pH, the enzymic activity was
+found to depend on the pH of the aqueous buffer component rather than the pH of
+the hydro-organic mixture as measured with the glass-calomel electrode. The
+relatively high rates of p-nitrophenol liberation in the presence of glucose even
+at high organic solvent concentrations suggest that transphosphorylation is
+facilitated at low water activity.
+
+
+PMID: 68  [Indexed for MEDLINE]
+

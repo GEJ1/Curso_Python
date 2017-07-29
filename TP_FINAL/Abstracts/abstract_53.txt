@@ -1,0 +1,26 @@
+Biochemistry. 1975 Dec 16;14(25):5387-94.
+
+The interaction of phospholipase A2 with micellar interfaces. The role of the
+N-terminal region.
+
+van Dam-Mieras MC, Slotboom AJ, Pieterson WA, de Haas GH.
+
+The localization of the previously postulated interface recognition site (IRS) in
+porcine pancreatic phospholipase A2, required for a specific interaction between 
+the enzyme and organized lipid-water interfaces, was investigated by ultraviolet 
+difference spectroscopy, by measurements of the intrinsic fluorescence of the
+unique Trp residue, and by protection experiments against specific tryptic
+hydrolysis. Using the enzymically nondegradable substrate analogues:
+CnH(2n+1)(0-)OOCH2CH2N+(CH3)3-(H,OH), it is shown that the rather hydrophobic
+N-terminal sequence of the enzyme, viz., Ala-Leu-Trp-Gln-Phe-Arg, is directly
+involved in the interaction with the lipid-water interface. Besides hydrophobic
+probably also polar interactions contribute to the binding process. At neutral or
+acidic pH the presence of a salt bridge between the N-terminal alpha-NH3+ group
+and a negatively charged side chain stablizes the interface recognition site and 
+allows the enzyme to penetrate micellar surfaces, even in the absence of metal
+ion. At alkaline pH, interaction of the enzyme with micellar interfaces requires 
+the presence of Ca2+ (Ba2+) ions.
+
+
+PMID: 53  [Indexed for MEDLINE]
+

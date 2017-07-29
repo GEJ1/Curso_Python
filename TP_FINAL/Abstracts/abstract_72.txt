@@ -1,0 +1,29 @@
+Biochim Biophys Acta. 1975 Nov 20;410(1):178-92.
+
+Preparation and characterization of an enzymatically active immobilized
+derivative of myosin.
+
+Elgart ES, Gusovsky T, Rosenberg MD.
+
+Purified skeletal muscle myosin (EC 3.6.1.3) has been covalently bound to
+Sepharose 4B by the cyanogen bromide procedure. The resulting complex,
+Sepharose-Myosin, possesses adenosine triphosphatase activity and is relatively
+stable for long periods of time. Under optimal binding conditions, approximately 
+33% of the specific ATPase activity of the bound myosin is retained.
+Polyacrylamide gel electrophoresis of polypeptides released from denatured
+Sepharose-Myosin indicates that 85% of the myosin is attached to the agarose
+beads through the heavy chains and the remainder through the light chains, in
+agreement with predictions of binding and release based upon either the lysine
+contents or molecular weights of themyosin subunits. The adenosine triphosphatase
+of the immobilized myosin has been investigated under conditions of varying pH,
+ionic strength, and cation concentration. The ATPase profiles of immobilized
+myosin are quite similar to those for free myosin, however subtle differences are
+found. The Sepharose-Myosin ATPase is not as sensitive as myosin to alterations
+in salt concentration and the apparent KM is approximately two-fold higher than
+that of myosin. These differences are probably due to chemical modification in
+the region of the attachment site(s) to the agarose beads and hydration and
+diffusion limitations imposed by the polymeric agarose matrix.
+
+
+PMID: 72  [Indexed for MEDLINE]
+

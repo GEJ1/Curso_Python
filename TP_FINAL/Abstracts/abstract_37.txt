@@ -1,0 +1,28 @@
+Biochemistry. 1975 Nov 18;14(23):5033-45.
+
+Poly(8-aminoguanylic acid): formation of ordered self-structures and interaction 
+with poly(cytidylic acid).
+
+Hattori M, Frazier J, Miles HT.
+
+Poly(8-aminoguanylic acid) has in neutral solution a novel ordered structure of
+high stability. The 8-amino group permits formation of three hydrogen bonds
+between two residues along the "top", or long axis, of the purines. The usual
+hydrogen bonding protons and Watson-Crick pairing sites are not involved in the
+association. The bonding scheme has a twofold rotation axis and is hemiprotonated
+at N(7). Poly(8NH2G) is converted by alkaline titration (pK = 9.7) to a quite
+different ordered structure, which is the favored form over the range
+approximately pH 10-11. The bonding scheme appears to be composed of a planar,
+tetrameric array of guanine residues, in which the 8-amino group does not
+participate in interbase hydrogen bonding. Poly (8NH2G) does not interact with
+poly(C) in neutral solution because of the high stability of the hemiprotonated
+G-G self-structure. Titration to the alkaline plateau, however, permits ready
+formation of a two-stranded Watson-Crick helix. In contrast to the monomer
+8NH2GMP, poly(8NH2G) does not form a triple helix with poly(C) under any
+conditions. The properties of the ordered structures are interpreted in terms of 
+a strong tendency of the 8-amino group to form a third interbase hydrogen bond,
+when this possibility is not prevented by high pH.
+
+
+PMID: 37  [Indexed for MEDLINE]
+

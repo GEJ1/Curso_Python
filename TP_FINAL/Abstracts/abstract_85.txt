@@ -1,0 +1,28 @@
+Biochim Biophys Acta. 1975 Dec 15;412(2):241-55.
+
+Myosin from arterial smooth muscle: isolation following actin depolymerization.
+
+Megerman J, Murphy RA.
+
+The contractile proteins from arterial smooth muscle are highly soluble, and can 
+be extracted at I = 0.05. However, they can be precipitated by a prolonged
+dialysis at pH 6 to give an actomyosin with a high, although variable,
+actin:myosin ratio. The sedimentation behavior of this actomyosin at high ionic
+strength was examined as a function of pH, protein concentration and composition 
+by preparative ultracentrifugation. Comparisons with synthetic skeletal muscle
+actomyosins of similar composition demonstrated significant differences in the
+behaviors of these two systems. It was found that much smooth muscle actomyosin
+is not dissociated by normally relaxing conditions, and that it sediments at a
+slower rate than F-actin. The solubility of the supernatant protein (a
+myosin-enriched actomyosin) in 0.2 M K Cl (pH 7) depended on the pH during
+centrifugation. A lower solubility was associated only with a higher actin
+concentration in the supernatant, suggesting a dependence on actin
+repolymerization. Pure myosin was selectively precipitated from the supernatant
+by polyethylene glycol-6000, but only when the protein was soluble at low ionic
+strength. The solubility of purified myosin was similar to that of myosin from
+striated muscles. A relationship between the presence of depolymerized actin and 
+the high solubility of smooth muscle contractile proteins is suggested.
+
+
+PMID: 85  [Indexed for MEDLINE]
+

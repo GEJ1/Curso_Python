@@ -1,0 +1,32 @@
+Biochim Biophys Acta. 1975 Nov 20;410(1):193-209.
+
+Radioactive labeling and location of specific thiol groups in myosin from fast,
+slow and cardiac muscles.
+
+Pfister M, Schaub MC, Watterson JG, Knecht M, Waser PG.
+
+1. Based on incorporation of radioactively labeled N-ethylmaleimide, the readily 
+reactive thiol groups of isolated myosin (EC 3.6.1.3) from fast, slow and cardiac
+muscles could be classified into 3 types. All 3 myosins contain 2 thiol-1, 2
+thiol-2 and a variable number of thiol-3 groups per molecule. Both thiol-1 and
+thiol-2 groups which are essential for functioning of the K+-stimulated ATPase,
+are located in the heavy chains in all 3 myosin types. 2. The variation in the
+incorporation pattern of N-ethylmaleimide over the 3 thiol group classes under
+steady-state conditions of Mg(2+) - ATP hydrolysis allowed different
+conformations of some reaction intermediates to be characterized. In all 3 types 
+of myosin the hydrolytic cycle of Mg(2+) - ATP was found to be controlled by the 
+same step at 25 degrees C. In all three cases, this rate-limiting step is changed
+in the same way by lowereing temperature. 3. Using the chemically determined
+molecular weights for myosin light chains, their stoichiometry was found on the
+basis of sodium dodecyl sulfate electrophoresis to be 1.2 : 2.1 : 0.8 for light
+chain-1: light chain-2:light chain-3 per molecule of fast myosin, 2.0 : 1.9 for
+light chain-1:light chain-2 per molecule of slow myosin and 1.9 : 1.9 for light
+chain-1:light chain-2 per molecule of cardiac myosin. This qualitative difference
+in light subunit composition between the fast and the two types of slow myosin is
+not reflected in the small variations of the characteristics exhibited by the
+isolated myosins, but rather seems to be connected with their respective
+myofibrillar ATPase activities.
+
+
+PMID: 73  [Indexed for MEDLINE]
+

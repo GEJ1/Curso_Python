@@ -1,0 +1,28 @@
+Biochemistry. 1975 Dec 2;14(24):5321-7.
+
+Evidence of the involvement of a 50S ribosomal protein in several active sites.
+
+Fahnestock SR.
+
+The functional role of the Bacillus stearothermophilus 50S ribosomal protein B-L3
+(probably homologous to the Escherichia coli protein L2) was examined by chemical
+modification. The complex [B-L3-23S RNA] was photooxidized in the presence of
+rose bengal and the modified protein incorporated by reconstitution into 50S
+ribosomal subunits containing all other unmodified components. Particles
+containing photooxidized B-L3 are defective in several functional assays,
+including (1) poly(U)-directed poly(Phe) synthesis, (2) peptidyltransferase
+activity, (3) ability to associate with a [30S-poly(U)-Phe-tRNA] complex, and (4)
+binding of elongation factor G and GTP. The rates of loss of the partial
+functional activities during photooxidation of B-L3 indicate that at least two
+independent inactivating events are occurring, a faster one, involving oxidation 
+of one or more histidine residues, affecting peptidyltransferase and subunit
+association activities and a slower one affecting EF-G binding. Therefore the
+protein B-L3 has one or more histidine residues which are essential for
+peptidyltransferase and subunit association, and another residue which is
+essential for EF-G-GTP binding. B-L3 may be the ribosomal peptidyltransferase
+protein, or a part of the active site, and may contribute functional groups to
+the other active sites as well.
+
+
+PMID: 52  [Indexed for MEDLINE]
+
