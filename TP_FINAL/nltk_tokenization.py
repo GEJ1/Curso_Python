@@ -22,13 +22,18 @@ import nltk
 
 import matplotlib
 
- 	
-f=open('my-file.txt','rU')
-raw=f.read()
-tokens = nltk.word_tokenize(raw)
-text = nltk.Text(tokens)
+import string
 
-print(text)     
+
+ 	
+f=open('my-file.txt','r')
+texto= f.read()
+##Aca le pondria algo que borre las lineas que arranquen con "<"
+texto = texto.translate(None, ['version','?']) #Borra la puntuacion, leer la documentacion de string
+tokens = nltk.word_tokenize(texto)
+
+
+print(tokens)     
 
 
            
