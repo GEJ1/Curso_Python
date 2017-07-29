@@ -37,29 +37,19 @@
 
 #!/usr/bin/python
 
+import sys
 import re
 import os
-
-archivos = os.listdir(os.getcwd())
-
-print archivos
-
-for archivo in archivos:
-	
-	f=open(str(archivo),'r+')
-
-	abstract = f.read()
-	
-	#~ print 'abstract editado : ', abstract 
+import nltk
 
 
-	#~ # Delete Python-style comments
+f=open (os.path.join(os.getcwd(), 'Abstracts' , 'Todos_los_abstracts.txt'),'r')
+texto= f.read()
 
-	abstract_editado = re.sub(r'(?m)^\<.*\n?', "", abstract)
-	#~ print "abstract editado : ", abstract_editado
+tokens = nltk.word_tokenize(texto)
 
-	f1 = open(archivo,'w+')
-	f1.write(abstract_editado)
+print tokens
+
 
 
 

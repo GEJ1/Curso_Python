@@ -3,6 +3,7 @@ import re
 import os
 
 def limpiar(directorio):
+	f2 = open(os.path.join(os.getcwd(), 'Abstracts' , 'Todos_los_abstracts.txt'),'w+')	
 	
 	for archivo in os.listdir(os.path.join(os.getcwd(), directorio)):
 		
@@ -16,6 +17,7 @@ def limpiar(directorio):
 		f1 = open(os.path.join(os.getcwd(), directorio , archivo),'w+')
 		
 		f1.write(abstract_editado2)
+		f2.write(abstract_editado2)
 
 if __name__== '__main__':
 	

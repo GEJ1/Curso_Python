@@ -13,7 +13,6 @@ if __name__== '__main__':
 		
 	
 	if 	sys.argv[1] == 'descargar':
-		
 		procesar(int(sys.argv[2]), int(sys.argv[3]))
 		
 	elif sys.argv[1] == 'borrar':
