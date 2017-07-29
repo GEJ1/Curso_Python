@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<pre>
-1. Biochem Pharmacol. 1975 Sep 1;24(17):1569-72.
+Biochem Pharmacol. 1975 Sep 1;24(17):1569-72.
 
 Radiochemical assay of glutathione S-epoxide transferase and its enhancement by
 phenobarbital in rat liver in vivo.
@@ -11,4 +8,3 @@ Marniemi J, Parkki MG.
 
 PMID: 9  [Indexed for MEDLINE]
 
-</pre>

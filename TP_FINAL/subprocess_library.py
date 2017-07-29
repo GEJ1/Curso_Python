@@ -7,7 +7,7 @@ def subproceso((inicio,fin)):
 	todos = []
 	
 	for i in range(inicio,fin):
-		p=subprocess.Popen(['python', 'Correr_Scraper.py', str(i)])
+		p=subprocess.Popen(['python', 'correr_scraper_pubmed.py', str(i)])
 		todos.append(p)
 
 	exit_codes = [p.wait() for p in todos]
@@ -35,4 +35,5 @@ def procesar(cant_total, partes):
 			
 			tiempo_ejecucion = tiempo_final - tiempo_inicial
 			
-			print 'El tiempo de ejecucion fue:',tiempo_ejecucion
+			print 'El tiempo de ejecucion fue:',tiempo_ejecucion 
+			# Ej: El tiempo de ejecucion fue: 1639.53900003 para 10.000 papers

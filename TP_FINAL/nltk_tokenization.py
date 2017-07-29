@@ -18,22 +18,53 @@
             #~ input_tokens = word_tokensize(input_file.read())
 
 
-import nltk
+#~ import nltk
 
-import matplotlib
+#~ import matplotlib
 
-import string
+#~ import string
 
 
  	
-f=open('my-file.txt','r')
-texto= f.read()
-##Aca le pondria algo que borre las lineas que arranquen con "<"
-texto = texto.translate(None, ['version','?']) #Borra la puntuacion, leer la documentacion de string
-tokens = nltk.word_tokenize(texto)
+#~ f=open('my-file.txt','r')
+#~ texto= f.read()
+#~ ##Aca le pondria algo que borre las lineas que arranquen con "<"
+#~ texto = texto.translate(None, ['version','?']) #Borra la puntuacion, leer la documentacion de string
+#~ tokens = nltk.word_tokenize(texto)
 
 
-print(tokens)     
+#~ print(tokens)    
+
+#!/usr/bin/python
+
+import re
+import os
+
+archivos = os.listdir(os.getcwd())
+
+print archivos
+
+for archivo in archivos:
+	
+	f=open(str(archivo),'r+')
+
+	abstract = f.read()
+	
+	#~ print 'abstract editado : ', abstract 
+
+
+	#~ # Delete Python-style comments
+
+	abstract_editado = re.sub(r'(?m)^\<.*\n?', "", abstract)
+	#~ print "abstract editado : ", abstract_editado
+
+	f1 = open(archivo,'w+')
+	f1.write(abstract_editado)
+
+
+
+
+
 
 
            

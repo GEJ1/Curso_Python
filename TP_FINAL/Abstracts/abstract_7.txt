@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<pre>
-1. Biochem Pharmacol. 1975 Aug 15;24(16):1469-74.
+Biochem Pharmacol. 1975 Aug 15;24(16):1469-74.
 
 Maturation of the adrenal medulla--IV. Effects of morphine.
 
@@ -10,4 +7,3 @@ Anderson TR, Slotkin TA.
 
 PMID: 7  [Indexed for MEDLINE]
 
-</pre>

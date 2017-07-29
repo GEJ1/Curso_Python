@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<pre>
-1. Biochem Biophys Res Commun. 1975 Oct 27;66(4):1173-9.
+Biochem Biophys Res Commun. 1975 Oct 27;66(4):1173-9.
 
 Delineation of the intimate details of the backbone conformation of pyridine
 nucleotide coenzymes in aqueous solution.
@@ -14,4 +11,3 @@ Erratum in
 
 PMID: 2  [Indexed for MEDLINE]
 
-</pre>
