@@ -1,5 +1,9 @@
+# -*- coding: utf-8 -*-
+
 import subprocess
 from time import time
+
+import sys
 
 
 
@@ -27,7 +31,11 @@ def procesar(cant_total, partes):
 			tiempo_inicial = time()
 			
 			for i in range(0, partes):
+				
+				
 				subproceso(archivos[i])
+				
+				
 				
 			
 			tiempo_final = time()

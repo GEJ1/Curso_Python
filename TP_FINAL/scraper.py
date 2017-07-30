@@ -5,9 +5,10 @@ import sys
 
 from subprocess_library import subproceso , dividir_input, procesar
 from Scraper_pubmed_library import Scraper_pubmed
+import sys
 
 
-# poner en la consola python __main__.py "Total de papers a descargar" "cantidad de procesos en paralelo"
+# El orden de parametros es 1) descargar o borrar. En caso de seleccionar descargar: 2) Cantidad a descargar 3) cantidad de partes en las cuales dividir la descarga
 
 if __name__== '__main__':
 		
@@ -20,7 +21,7 @@ if __name__== '__main__':
 		scraper.borrar_abstracts()
 	
 	else:
-		print "El orden de parametros es 1) descargar o borrar. En caso de seleccionar descargar. 2) Cantidad a descargar 3) cantidad de partes en las cuales dividir la descarga"
+		print "El orden de parametros es 1) descargar o borrar. En caso de seleccionar descargar: 2) Cantidad a descargar 3) cantidad de partes en las cuales dividir la descarga"
 		
 		
 		

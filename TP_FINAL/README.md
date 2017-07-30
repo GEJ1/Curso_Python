@@ -5,3 +5,5 @@
 
 Instrucciones para correr el scraper:
 
+http://www.nltk.org/data.html
+

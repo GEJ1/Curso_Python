@@ -1,100 +1,54 @@
 # coding=utf-8
 
-#~ import nltk
-#~ from nltk.tokenize import word_tokenize , sent_tokenize
-#~ import sys
-#~ import os
-
-#~ reload(sys)  #Evita problemas con la codificación
-#~ sys.setdefaultencoding('Cp1252')
-
-
-            
-#~ words_input_dir = os.path.join(os.getcwd(), 'Abstracts')
-
-#~ for filename in os.listdir(words_input_dir):
-    #~ if filename.endswith(".txt"):
-        #~ with open(filename, "r") as input_file:
-            #~ input_tokens = word_tokensize(input_file.read())
-
-
-#~ import nltk
-
-#~ import matplotlib
-
-#~ import string
-
-
- 	
-#~ f=open('my-file.txt','r')
-#~ texto= f.read()
-#~ ##Aca le pondria algo que borre las lineas que arranquen con "<"
-#~ texto = texto.translate(None, ['version','?']) #Borra la puntuacion, leer la documentacion de string
-#~ tokens = nltk.word_tokenize(texto)
-
-
-#~ print(tokens)    
-
-#!/usr/bin/python
-
-#~ import sys
-#~ import re
-#~ import os
-#~ import nltk
-#~ from nltk.tokenize import RegexpTokenizer
-#~ from nltk import *
-
-
-#~ f=open (os.path.join(os.getcwd(), 'Abstracts' , 'Todos_los_abstracts.txt'),'r')
-
-#~ texto= f.read()
-
-#~ texto = re.sub(r'[\]\[\(\)\{\}\<\>]', "", texto)
-
-
-#~ tokens = nltk.word_tokenize(texto)
-
-#~ nltk.concordance("ion")
-
-#~ print tokens
-
-
-##################33
-
-
-# coding=utf-8
-
 
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.text import Text
+from nltk import FreqDist
+from nltk.corpus import stopwords
+
 import os
 import re
 import sys  
-
-reload(sys)  
-sys.setdefaultencoding('utf8')
-
-def main():
-    text = open(os.path.join(os.getcwd(), 'Abstracts' , 'Todos_los_abstracts.txt'),'r').read()
-    text = re.sub(r'[\]\[\(\)\{\}\<\>]', "", text)
-    tokens = word_tokenize(text)
-    textList = Text(tokens)
-    textList.dispersion_plot(["in", "ion", "Haberland", "cancer", "fibroblasts", 'molecule']) #Cada marca representa una instancia de esa palabra y cada fila cubre todo el texto. Hay un orden cronologico
+import string 
 
 
+if __name__== '__main__':
+	
+	reload(sys)  
+	sys.setdefaultencoding('utf8') #Necesario para el encoding
 
+	text = open(os.path.join(os.getcwd(), 'Abstracts' , 'Todos_los_abstracts.txt'),'r').read()
 
-if __name__ == '__main__':
-    main()
+	#Tokeniza el texto
+	tokens = word_tokenize(text)
 
+	filtered_words = [w for w in tokens if not w in stopwords.words('english')]
 
+	 
+	palabras_clave = []
 
+	input_usuario = raw_input('Seleccione la opcion deseada: 1- Grafico de frecuencia  2- Grafico de dispersion\n')
 
-
-
-
-
-           
+	if input_usuario == '1':
+		
+		fdist1 = FreqDist(filtered_words)
+		
+		fdist1.plot(30,cumulative=False)
+		
+	elif input_usuario == '2':
+		
+		input_usuario = raw_input('Ingrese todas las palabras que desee separadas por un espacio\n')
+		
+		tokens_input = word_tokenize(input_usuario)
+		
+		for palabra in tokens_input:
+			
+			palabras_clave.append(palabra)
+			
+		
+		textList = Text(filtered_words)
+		textList.dispersion_plot(palabras_clave)
+   
 
    
 
