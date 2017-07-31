@@ -2,10 +2,7 @@
 
 import subprocess
 from time import time
-
 import sys
-
-
 
 def subproceso((inicio,fin)):
 	todos = []
@@ -24,24 +21,22 @@ def dividir_input(total,paso):
 	return archivos
 	
 def procesar(cant_total, partes):
+	
+	archivos = dividir_input(cant_total,int(cant_total/partes))
+	
+	tiempo_inicial = time()
+	
+	for i in range(0, partes):
 		
-				
-			archivos = dividir_input(cant_total,int(cant_total/partes))
-			
-			tiempo_inicial = time()
-			
-			for i in range(0, partes):
-				
-				
-				subproceso(archivos[i])
-				
-				
-				
-			
-			tiempo_final = time()
-			
-			
-			tiempo_ejecucion = tiempo_final - tiempo_inicial
-			
-			print 'El tiempo de ejecucion fue:',tiempo_ejecucion 
-			# Ej: El tiempo de ejecucion fue: 1639.53900003 para 10.000 papers
+		subproceso(archivos[i])
+		
+		
+		
+	
+	tiempo_final = time()
+	
+	
+	tiempo_ejecucion = tiempo_final - tiempo_inicial
+	
+	print 'El tiempo de ejecucion fue:',tiempo_ejecucion 
+	# Ej: El tiempo de ejecucion fue: 1639.53900003 para 10.000 papers
